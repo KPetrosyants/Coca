@@ -1,9 +1,9 @@
-import '../assets/scss/main.scss';
+import "../assets/scss/main.scss";
 
 // component
-import { useTheme } from './components/theme.js';
-import { useBurger } from './components/burger.js';
-import { partnersSlider } from './components/partnersSlider.js';
+import { useTheme } from "./components/theme.js";
+import { useBurger } from "./components/burger.js";
+import { partnersSlider } from "./components/partnersSlider.js";
 
 useTheme();
 useBurger();
