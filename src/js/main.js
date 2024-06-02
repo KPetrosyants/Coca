@@ -1,4 +1,10 @@
-import "../css/main.css";
-import { foo, foo2 } from "./functions.js";
-console.log(foo);
-console.log(foo2(foo));
+import "../assets/scss/main.scss";
+
+// components
+import { useTheme } from "./components/theme.js";
+import { useBurger } from "./components/burger.js";
+import { useHeaderHiden } from "./components/header-hiden.js";
+
+useTheme();
+useBurger();
+useHeaderHiden();
